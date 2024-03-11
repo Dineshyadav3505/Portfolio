@@ -30,7 +30,7 @@ const Page2 = () => {
         </div>
 
         <div className="icon flex justify-center items-center h-10 mt-10  ">
-            <Link className='text-zinc-100 text-center flex gap-2 uppercase px-5 py-1 hover:scale-110  bg-zinc-900 rounded-3xl' to="/project"> Clone Project <img className=' bg-slate-50 h-6 w-6 rounded-full p-1 ' src="https://cdn.hugeicons.com/icons/arrow-right-03-stroke-rounded.svg" alt="arrow-right-03" width="24" height="24" /> </Link>
+            <Link className='text-zinc-100 text-center flex gap-2 uppercase px-5 py-1 hover:scale-110 cursor-none  bg-zinc-900 rounded-3xl' to="/project"> Clone Project <img className=' bg-slate-50 h-6 w-6 rounded-full p-1 ' src="https://cdn.hugeicons.com/icons/arrow-right-03-stroke-rounded.svg" alt="arrow-right-03" width="24" height="24" /> </Link>
 
         </div>
 

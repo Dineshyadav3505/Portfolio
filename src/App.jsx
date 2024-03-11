@@ -1,26 +1,29 @@
 import React from 'react'
-import Page1 from './assets/comp/Page1'
-import Footer from './assets/comp/Footer'
-import Page3 from './assets/comp/Page3'
-import HomePage1 from './assets/comp/HomePage1'
-import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-import Navbar from './assets/comp/Navbar'
 import About from './assets/comp/About'
-import Resume from './assets/comp/Contact'
-import Page2 from './assets/comp/Page2'
-
+import HomePage1 from './assets/comp/HomePage1'
+import Contact from './assets/comp/Contact'
+import Navbar from './assets/comp/Navbar'
+import Footer from './assets/comp/Footer'
+import Loader from './assets/comp/Loader'
+import MoreProject from './assets/comp/MoreProject'
+import { Route, Routes } from 'react-router-dom'
+import Cursor from './assets/comp/Cursor'
 
 
 const App = () => {
-  
-
   return (
-    <div>
+    <div className='cursor-none'>
+      <Loader/>
+      <Cursor/>
       <Navbar/>
-      <Page1/>
-      <Page2/>
-      <Page3/>
+      <Routes>
+        <Route path="/" element={<HomePage1/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/project" element={<MoreProject/>} />
+      </Routes>
       <Footer/>
+      
     </div>
   )
 }

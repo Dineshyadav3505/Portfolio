@@ -6,9 +6,7 @@ import Form from './Form';
 const resume = () => {
   return (
     <div>
-      <Navbar/>
       <Form/>
-      <Footer/>
     </div>
   );
 }

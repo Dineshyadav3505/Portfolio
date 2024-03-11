@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import gsap from 'gsap';
 
 
 
@@ -22,19 +23,20 @@ const Page1 = () => {
         };
     }, []);
 
- 
 
+
+ 
   return (
     <div className='h-screen w-full'>
-        <div className='h-96 px-28 py-14  '>
-            <h1 className='text-[6vw] font-bold text-zinc-500' >Dinesh Yadav.</h1>
-            <h1 className='text-[6vw]  font-bold' > I'm a <span className= 'capitalize' ref={el}></span></h1>
+        <div className='h-96 px-28 py-14 '>
+            <h1  className=' text-[6vw] h-fit overflow-hidden leading-tight font-bold text-zinc-500' >Dinesh Yadav.</h1>
+            <h1 className=' text-[6vw] overflow-hidden leading-tight font-bold' > I'm a <span className= 'capitalize' ref={el}></span></h1>
         </div>
         <div className='flex px-28 py-16 gap-14 h-32' >
             <div className='h-44 w-[30vw] ' >
                 <h1 className='text-xl text-zinc-500 uppercase font-semibold'>current</h1>
                 <h2 className='text-base text-zinc-900 mt-3 font-light capitalize'>currently Working in</h2>
-                <a className='text-base text-zinc-900 mt-5 font-light uppercase  underline hover:italic  ' href="/">synergy retail</a>
+                <a className='text-base cursor-none text-zinc-900 mt-5 font-light uppercase  underline hover:italic  ' href="/">synergy retail</a>
             </div>
             <div className='h-44 w-[30vw] '  id="soon">
                 <h1 className='text-xl uppercase  text-zinc-500 font-semibold'>soon</h1>
@@ -43,8 +45,8 @@ const Page1 = () => {
             <div className='h-44 w-[20vw] ml-4'  id="past">
                 <h1 className='text-xl uppercase  text-zinc-500 font-semibold'>past</h1>
                 <h2 className=' text-base text-zinc-900 mt-3 font-light  capitalize'>complete intern at </h2>
-                <a className='text-base text-zinc-900 mt-3 font-light uppercase  underline hover:italic'   href="/">Freelancer & </a>
-                <a className='text-base text-zinc-900 mt-5 font-light uppercase  underline hover:italic'   href="/">Coding Junior</a>
+                <a className='text-base cursor-none text-zinc-900 mt-3 font-light uppercase  underline hover:italic'   href="/">Freelancer & </a>
+                <a className='text-base cursor-none text-zinc-900 mt-5 font-light uppercase  underline hover:italic'   href="/">Coding Junior</a>
             </div>
 
         </div>

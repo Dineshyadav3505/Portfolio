@@ -12,7 +12,6 @@ const MoreProject = () => {
     ]
   return (
     <div>
-        <Navbar/>
         <div className="outerbox px-28 mb-20">
             <h1 className='text-center text-[5vw] font-bold'>Clone Projects..</h1>
             <div className="overview flex justify-between mt-10">
@@ -25,7 +24,6 @@ const MoreProject = () => {
                 ))}
             </div>
         </div>
-        <Footer/>
        
     </div>
   )

@@ -12,20 +12,20 @@ const Footer = () => {
         <div className="link h-20 flex items-center gap-14 ml-5 ">
 
             <div className="linkedi flex items-center ">
-                <a className='capitalize hover:scale-150 '  target="_blank" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFLeGR7Puc67gAAAY4ThUWIHF8hEhMh0H4jrnVcQ3_bL_Q48qMPqDIh6jhubrFpebYKZqyRl8yu8tSC1zK8QeSUBx6uxdsqlfjC06Ul3BJGwSLYNXjbCNoNQXZ-zcx-4OzfAFk=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdinesh-yadav-6aa877198"> 
+                <a className='capitalize hover:scale-150  cursor-none'  target="_blank" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFLeGR7Puc67gAAAY4ThUWIHF8hEhMh0H4jrnVcQ3_bL_Q48qMPqDIh6jhubrFpebYKZqyRl8yu8tSC1zK8QeSUBx6uxdsqlfjC06Ul3BJGwSLYNXjbCNoNQXZ-zcx-4OzfAFk=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdinesh-yadav-6aa877198"> 
                 <i class="ri-arrow-right-line"></i>
                 LinkedIn
                 </a>
             </div>
 
             <div className="github flex items-center">
-                <a className='capitalize hover:scale-150 ' id="dark" target="_blank" href="https://github.com/Dineshyadav3505">
+                <a className='capitalize hover:scale-150  cursor-none' id="dark" target="_blank" href="https://github.com/Dineshyadav3505">
                 <i class="ri-arrow-right-line"></i>
                 github
                 </a>
             </div>
             <div className="email flex items-center">
-                <a className='capitalize hover:scale-150'id="dark" target="_blank" href="mailto:<dineshydv3505@gmail.com>">
+                <a className='capitalize hover:scale-150 cursor-none'id="dark" target="_blank" href="mailto:<dineshydv3505@gmail.com>">
                     <i class="ri-arrow-right-line"></i>
                     email
               
