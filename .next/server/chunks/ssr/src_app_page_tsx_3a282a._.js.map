@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/dineshyadav/Development/Next/port/src/app/page.tsx"],"sourcesContent":["\"use client\";\nimport React from 'react';\nimport Header from \"@/components/Header\";\n\nexport default function Home() {\n  return (\n    <div className=\"\">hello home</div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;AAIe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBAAG;;;;;;AAEtB"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
